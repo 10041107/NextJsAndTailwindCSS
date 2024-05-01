@@ -1,10 +1,8 @@
-# TailwindCSS와 Next.js app 프로젝트 설정
+# TailwindCSS와 Next.js app 기초 설정 템플릿
 
-TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트의 기초 설정.
+TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트 기초 설정 템플릿
 
 ## 의존성
-
-프로젝트는 다음의 주요 의존성을 포함:
 
 - Tailwind CSS: `@tailwindcss/postcss@4.0.0-alpha.13`
 - Next.js: `next@canary`
@@ -14,8 +12,6 @@ TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트의 기초 �
 
 ## 개발 의존성
 
-개발 과정에서 필요한 도구 설정:
-
 - Tailwind CSS: `tailwindcss@^3.4.3`
 - PostCSS: `autoprefixer@^10.4.19` 및 `postcss@^8.4.38`
 - ESLint: `eslint@^8` 및 `eslint-config-next@14.2.2`
@@ -23,7 +19,7 @@ TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트의 기초 �
 
 ## 패키지 매니저
 
-이 프로젝트는 `yarn@4.1.1`을 사용하여 의존성을 관리합니다.
+`yarn@4.1.1`을 사용하여 의존성을 관리합니다.
 
 ---
 
