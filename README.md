@@ -1,4 +1,4 @@
-# TailwindCSS와 Next.js app 기초 설정 템플릿
+# Next.js + TailwindCSS app 기초 설정 템플릿
 
 TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트 기초 설정 템플릿
 
