@@ -4,7 +4,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false, // 파일명에 대소문자 구분하지 않아도 되는 기능 사용 여부
+    // 직역: 파일 이름에 일관된 casing 강제 적용
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -12,7 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
+    "baseUrl": ".", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
     "incremental": true,
     "plugins": [
       {
@@ -21,6 +22,6 @@
     ],
     "strictNullChecks": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/alert.ㅅsx", "app/page.jsx"],
   "exclude": ["node_modules"]
 }
