@@ -6,16 +6,14 @@ TailwindCSS와 Next.js를 사용하여 구성된 `app` 프로젝트 기초 설�
 
 - Tailwind CSS: `@tailwindcss/postcss@4.0.0-alpha.13`
 - Next.js: `next@canary`
-- React: `react@18.2.0` 및 `react-dom@18.2.0`
+- React: `react@18.2.0`, `react-dom@18.2.0`
 - TypeScript: `typescript@5.3.3`
-- 기타 유틸리티 및 타입 정의
 
 ## 개발 의존성
 
 - Tailwind CSS: `tailwindcss@^3.4.3`
-- PostCSS: `autoprefixer@^10.4.19` 및 `postcss@^8.4.38`
-- ESLint: `eslint@^8` 및 `eslint-config-next@14.2.2`
-- TypeScript: `typescript@^5`
+- PostCSS: `autoprefixer@^10.4.19`, `postcss@^8.4.38`
+- ESLint: `eslint@^8`, `eslint-config-next@14.2.2`
 
 ## 패키지 매니저
 
